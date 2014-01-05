@@ -2,9 +2,11 @@
   "name": "t",
   "version": "0.1.0",
   "description": "Simple Utility to Generate thunks on the fly",
-  "dependencies": {},
+  "dependencies": {
+
+  },
   "devDependencies": {
-    "mocha": "*",
+    "mocha": "*"
   },
   "main": "index.js",
   "scripts": {
