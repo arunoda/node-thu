@@ -1,7 +1,7 @@
 {
-  "name": "t",
+  "name": "thu",
   "version": "0.1.0",
-  "description": "Simple Utility to Generate thunks on the fly",
+  "description": "Simple utility to generate thunks on the fly",
   "dependencies": {
 
   },
@@ -15,7 +15,7 @@
   "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/arunoda/node-t.git"
+    "url": "git://github.com/arunoda/node-thu.git"
   },
   "license": "MIT"
 }
