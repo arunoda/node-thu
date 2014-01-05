@@ -1,11 +1,10 @@
 var assert = require('assert');
-var t = require('../index.js');
-var co = require('co');
+var thu = require('../index.js');
 
-suite('t', function() {
+suite('thu', function() {
   test('obj.func with args', function(done) {
     var num = new Num();
-    var thunk = t(num, 'incre', 100);
+    var thunk = thu(num, 'incre', 100);
     thunk(function(err, result) {
       assert.equal(result, 100);
       done();
@@ -14,7 +13,7 @@ suite('t', function() {
 
   test('obj.func without args', function(done) {
     var num = new Num(200);
-    var thunk = t(num, 'get');
+    var thunk = thu(num, 'get');
     thunk(function(err, result) {
       assert.equal(result, 200);
       done();
@@ -22,7 +21,7 @@ suite('t', function() {
   });
 
   test('func with args', function(done) {
-    thunk = t(sum, 10, 20);
+    thunk = thu(sum, 10, 20);
     thunk(function(err, result) {
       assert.equal(result, 30);
       done();
@@ -31,7 +30,7 @@ suite('t', function() {
 
   test('unsupported args', function(done) {
     try {
-      thunk = t(10);
+      thunk = thu(10);
       assert.fail('should throws');
     } catch(ex) {
       assert.equal(ex.message, 'UNSUPPORTED_ARGUMENTS');
