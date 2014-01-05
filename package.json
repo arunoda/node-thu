@@ -1,10 +1,8 @@
 {
   "name": "thu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple utility to generate thunks on the fly",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   },
@@ -17,6 +15,11 @@
     "type": "git",
     "url": "git://github.com/arunoda/node-thu.git"
   },
-  "keywords": ["thunk", "co", "generator", "generators"],
+  "keywords": [
+    "thunk",
+    "co",
+    "generator",
+    "generators"
+  ],
   "license": "MIT"
 }
