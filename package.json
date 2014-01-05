@@ -1,0 +1,19 @@
+{
+  "name": "t",
+  "version": "0.1.0",
+  "description": "Simple Utility to Generate thunks on the fly",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arunoda/node-t.git"
+  },
+  "license": "MIT"
+}
