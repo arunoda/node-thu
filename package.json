@@ -17,5 +17,6 @@
     "type": "git",
     "url": "git://github.com/arunoda/node-thu.git"
   },
+  "keywords": ["thunk", "co", "generator", "generators"],
   "license": "MIT"
 }
