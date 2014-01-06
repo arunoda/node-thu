@@ -6,7 +6,7 @@ Simple utility to generate `thunks` on the fly
 ## installation
 
 ~~~bash
-npm install t
+npm install thu
 ~~~
 
 ## using with functions
